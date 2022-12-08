@@ -1,0 +1,34 @@
+.btn{
+    cursor: pointer;
+    color:white;
+    margin-right: 8px;
+    padding: 0.3rem 0.7rem ;
+    font-size: 1rem;
+    display: inline-block;
+    border-radius: 8px;
+    font-family: Georgia,Times, serif;
+}
+.secondary_btn{
+    background-color: #6c757d;
+    border-color: #6c757d;
+
+}
+.secondary_btn:hover{
+    background-color: #5c636a;
+    border-color: #565e64;
+}
+.primary_btn{
+    background-color: #0d6efd;
+    border-color: #0d6efd ;
+}
+.primary_btn:hover{
+background-color: #0b5ed7;
+}
+.bookmark{
+    padding:0;
+    width:30px;
+    height: 30px;
+    background-image: url( '../shared/bookmark2.png' );
+    background-size: cover;
+    color:transparent;
+}
