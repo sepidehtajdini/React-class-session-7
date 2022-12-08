@@ -1,0 +1,8 @@
+.input__btn {
+  background-color: lightslategray;
+  border-radius: 8px;
+  padding: 5px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Georgia, Times, serif;
+}
