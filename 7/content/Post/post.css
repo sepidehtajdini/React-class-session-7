@@ -1,0 +1,31 @@
+.post{
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   border: 2px solid teal;
+   border-radius: 10px;
+   font-family: Georgia,'Times New Roman', serif;
+   font-style: italic;
+   width:94vw;
+}
+.post__title{
+    font-size: larger;
+    font-weight: bold;
+}
+/* .post__body{border: 2px dashed aquamarine;} */
+.post__header{
+    display: flex;
+    justify-content: space-between;
+}
+.post--bookmarked {
+    color: orangered;
+}
+.post--found {
+    border: 5px dashed yellow;
+}
+.highlight {
+    color: blueviolet;
+    font-size: large;
+    font-weight: bold;
+  }
