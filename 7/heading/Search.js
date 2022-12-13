@@ -3,10 +3,7 @@ import "./heading.css";
 
 function Search({ search, inp }) {
 
-    function onKeyDown() {
-        window.addEventListener('keydown', (event) => {
-            document.querySelector('input').focus();
-        });
+    function onKeyDown() { inp.focus() });
     }
     return (
         <div className="header__bar__searchBar">
